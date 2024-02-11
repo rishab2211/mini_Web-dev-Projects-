@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background-color: hsl(240, 67%, 97%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("./assets/rock\ paper\ scisor.jpg");
+}
+
+#myHead{
+    margin:20px ;
+    font-size: 4rem;
+}
+#choices{
+    
+}
+.choice{
+    font-size: 4.5rem;
+    border-radius: 50%;
+    background-color: hsl(240, 67%, 94%);
+}
+.choice:hover{
+    background-color: hsl(240, 67%, 80%);
+    cursor:pointer;
+}
+
+#player{
+    font-size: 2rem;
+    margin: 20px;
+}
+#computer{
+    font-size: 2rem;
+    margin: 20px;
+}
+#result{
+    font-size: 3rem;
+    margin: 20px;
+}

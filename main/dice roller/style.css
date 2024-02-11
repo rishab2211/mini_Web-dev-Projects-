@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    color: aliceblue;
+    background-image: url("./assets/background.jpg");
+    background-size: cover;
+}
+.rollNum{
+    font-weight: 500;
+}
+.inp{
+    text-align: center;
+    height: 40px;
+    width: 80px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: larger;
+}
+#diceImgs *{
+    width: 200px;
+}

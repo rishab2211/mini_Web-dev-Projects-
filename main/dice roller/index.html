@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice roller</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- mini-project heading -->
+    <h1 class="text">Dice Roller</h1>
+
+    <!-- this will show how many dice user chose to roll -->
+    <label class="rollNum text" >No. of dice to roll :</label>
+    <!-- input button with minimum value 1 and maximum 6 -->
+    <input type="number" value="1" class="inp" id="NumSelect" min="1" max="6">
+
+    <!-- Onclicking this submit button rollingDice() function invokes  -->
+    <button type="submit" onclick="rollingDice()" id="Submit">SUBMIT</button>
+
+    <!-- the numbers came as an output will show in this element  -->
+    <h5 id="Num" class="text"></h5>
+
+    <!-- the images of dices will go in this element -->
+    <p id="diceImgs"></p>
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>

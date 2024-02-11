@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    background-color:beige;
+    border-radius: 5%;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.text{
+    font-size: 1.25em;
+    font-weight: 600;
+}

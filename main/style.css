@@ -1,0 +1,32 @@
+/* body *{
+    border: 1px solid black;
+    margin: 0px;
+} */
+body{
+    background-image: url("./assets/background_main.jpg");
+    background-size: cover;
+}
+#mainContainer{
+    padding: 15px 0px 10px 0px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    height: 70vh;
+    align-items:center;
+    flex-wrap: wrap;
+    backdrop-filter:blur(70%) ;  
+    
+}
+.about{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.mini{
+    height: 250px;
+    width: 250px;
+    background-color: beige;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
