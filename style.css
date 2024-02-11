@@ -3,7 +3,7 @@
     margin: 0px;
 } */
 body{
-    background-image: url("./assets/background_main.jpg");
+    background-image: url("./main/assets/background_main.jpg");
     background-size: cover;
 }
 #mainContainer{
