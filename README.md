@@ -1,0 +1,3 @@
+- This is the Single static website where my mini projects (after learning html, css, javascript) is stored.
+- follow following link to get it live!!
+- [mini-Web-dev-Proj.](https://rishab2211.github.io/mini_Web-dev-Projects-/)
