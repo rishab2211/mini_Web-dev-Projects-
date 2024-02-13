@@ -1,5 +1,5 @@
 function rollingDice(){
-    //  selecting each elements by their id's to manipulate latter
+    //  selecting each elements by their id's to manipulate later
     const Numselect = document.getElementById("NumSelect").value;
     const Num = document.getElementById("Num");
     const diceImg = document.getElementById("diceImgs")
@@ -20,7 +20,7 @@ for(let i=0;i<Numselect;i++){
     imgs.push(`<img src="./assets/${val}.png ">`);
 }
 
-Num.textContent = `Values we get after rolling dice : ${vals.join(", ")}`;
+Num.textContent = `Rolling dice RESULT : ${vals.join(", ")}`;
 diceImg.innerHTML = imgs.join(" ");
 
 }
